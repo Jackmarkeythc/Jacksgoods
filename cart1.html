@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jacksgoods - Shopping Cart</title>
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+      .red-border {
+        border: 4px solid rgb(2, 2, 2);
+      }
+      .col {
+        border: 1px solid blue;
+      }
+      .grey {
+        color: rgba(18, 18, 19, 0.849);
+        text-align: center;
+      }
+      img {
+        width: 100%;
+        display: block;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color:transparent;
+        color: black;
+        margin-top: 25px;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-lg red-border">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Jack'sgoods.com</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Main page</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="item1.html">Item</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="cart1.html">Shopping cart</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card mb-3">
+            <img src="images/1.png" class="card-img-top" alt="Fender Custom Shop 56 Stratocaster">
+            <div class="card-body">
+              <h5 class="card-title">Fender Custom Shop 56 Stratocaster</h5>
+              <p class="card-text">Price: $4,200</p>
+              
+            </div>
+          </div>
+          <div class="card mb-3">
+            <img src="images/3.png" class="card-img-top" alt="PRS Custom 24-08 in Charcoal Burst">
+            <div class="card-body">
+              <h5 class="card-title">PRS Custom 24-08 in Charcoal Burst</h5>
+              <p class="card-text">Price: $3,800</p>
+              
+            </div>
+          </div>
+          <div class="card mb-3">
+            <img src="images/5.png" class="card-img-top" alt="Ibanez JEM7V Steve Vai Signature">
+            <div class="card-body">
+              <h5 class="card-title">Ibanez JEM7V Steve Vai Signature</h5>
+              <p class="card-text">Price: $2,900</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Order Summary</h3>
+          <p>Subtotal: $10,900</p>
+          <p>Tax: $900</p>
+          <h4>Total: $11,800</h4>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CheckoutModal">Checkout</a>
+        </div>
+      </div>    
+    <!-- Modal -->
+    <div class="modal fade" id="CheckoutModal" tabindex="-1" aria-labelledby="CheckoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="CheckoutModalLabel">Notes</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/10.png" class="img-fluid" alt="Thank You">
+            Thanks for shopping at Jacksgoods.com, please contact store for pickup: 647-xxx-xxx.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="item1.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="cart1.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+   </div>
+  </body>
+</html>    
+
+    <footer>
+      <p>&copy; 2024 Jack Wang - All Rights Reserved</p>
+    </footer>
+
+    <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
+  

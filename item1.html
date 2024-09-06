@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jacksgoods</title>
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+   
+   <style>
+      .red-border {
+        border: 4px solid rgb(2, 2, 2);
+      }
+
+      .col {
+        border: 1px solid blue;
+      }
+
+      .grey {
+        color: rgba(18, 18, 19, 0.849);
+        text-align: center;
+      }
+
+      img {
+        width: 100%;
+        display: block;
+      }
+      footer {
+            text-align: center;
+            padding: 20px;
+            background-color:transparent;
+            color: black;
+            margin-top: 25px;
+            font-size: 0.9em;
+        }
+   </style>
+  </head>
+   <body>
+    <div class="container-lg red-border">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jack'sgoods.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Home
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">Main page</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="item1.html">Item</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="cart1.html">shopping cart</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Fender
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Collection 1</h5>
+                          <p class="card-text">Fender Custom Shop 56 Stratocaster Heavy Relic in Black.</p>
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#Collection1Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card">
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Collection 4</h5>
+                          <p class="card-text">Fender Custom Shop (FCS) Limited Edition Terry Kath Telecaster®</p>
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#Collection4Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card">
+                        <img src="images/7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Collection 7</h5>
+                          <p class="card-text">Fender Custom Shop Limited Edition Red Hot Stratocaster Super Heavy Relic, Maple Fingerboard - Aged Lake Placid Blue.</p>
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#Collection7Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Gibson
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                      <img src="images/2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection 2</h5>
+                        <p class="card-text">Gibson Les Paul Standard '50s P-90 in Goldtop.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#Collection2Modal" class="btn btn-primary">Launch</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                      <img src="images/6.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection 6</h5>
+                        <p class="card-text">Gibson Custom 1959 Les Paul Standard Reissue VOS in Dirty Lemon.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#Collection6Modal" class="btn btn-primary">Launch</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                      <img src="images/8.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection 8</h5>
+                        <p class="card-text">Gibson SG Standard '61 Maestro Vibrola in Vintage Cherry.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#Collection8Modal" class="btn btn-primary">Launch</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                      <img src="images/9.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection 9</h5>
+                        <p class="card-text">Gibson ES-335 Figured in Sixties Cherry.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#Collection9Modal" class="btn btn-primary">Launch</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Other
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                      <img src="images/3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection 3</h5>
+                        <p class="card-text">PRS Custom 24-08 in Charcoal Burst.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#Collection3Modal" class="btn btn-primary">Launch</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                      <img src="images/5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection 5</h5>
+                        <p class="card-text">Ibanez JEM7V Steve Vai Signature in White.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#Collection5Modal" class="btn btn-primary">Launch</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Collection 1</h5>
+                            <p class="card-text">Fender Custom Shop 56 Stratocaster Heavy Relic in Black.</p>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Collection1Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Collection 2</h5>
+                            <p class="card-text">Gibson Custom Shop Murphy Lab 1957 Les Paul.</p>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Collection2Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Collection 3</h5>
+                            <p class="card-text">National Style 0 Model Resophonic Guitar (1937), made in Los Angeles.</p>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Collection3Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row mt-4">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Collection 4</h5>
+                            <p class="card-text">Martin 00-42SC John Mayer Stagecoach Edition.</p>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Collection4Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Collection 5</h5>
+                            <p class="card-text">PRS Private Stock McCarty 594.</p>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Collection5Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Collection 6</h5>
+                            <p class="card-text">Taylor Builder’s Edition K14ce.</p>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Collection6Modal" class="btn btn-primary">Launch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row mt-4">
+            <div class="col-md-4 col-sm-12">
+              <div class="card">
+                <img src="images/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Collection 7</h5>
+                  <p class="card-text">Fender Custom Shop
+                    Limited Edition Red Hot Stratocaster Super Heavy Relic, Maple Fingerboard - Aged Lake Placid Blue.</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#Collection7Modal" class="btn btn-primary">Launch</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card">
+                <img src="images/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Collection 8</h5>
+                  <p class="card-text">Gibson Custom Shop EDS-1275 Double Neck - Cherry.</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#Collection8Modal"  class="btn btn-primary">Launch</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card">
+                <img src="images/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Collectio 9</h5>
+                  <p class="card-text">Gibson Custom Shop Kirk Hammett 1979 Flying V - Ebony.</p>
+                  <a href="#"data-bs-toggle="modal" data-bs-target="#Collection9Modal" class="btn btn-primary">Launch</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    <!-- Modal -->
+    <div class="modal fade" id="Collection1Modal" tabindex="-1" aria-labelledby="#Collection1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="collection1ModalLabel">Collection 1</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/1.png" class="img-fluid">
+          This is the Collection 1
+          Here we have a very unique Fender Custom shop El Diablo Stratocaster heavy relic in Rare Black with the most wanted 10/56 "V" neck, El Diablo pickups,Single-Ply Raw Aluminum Pickguard & Back Plate and AWESOME TONE for Days!!! Limited edition.
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      <!-- Modal -->
+      <div class="modal fade" id="Collection2Modal" tabindex="-1" aria-labelledby="Collection2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="Collection2ModallLabel">Collection 2</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="images/2.png" class="img-fluid">
+              This is the collection 2
+              The iconic '57 Goldtop has been the tool of choice for countless guitar heroes. Its elegant gold finish, classic solid mahogany/maple construction, and versatile humbucking pickups represent everything one could possibly need in a Les Paul™ model. 
+              This authentic recreation exemplifies Gibson Custom Shop's tireless quest for accuracy to the original year of production, from the woods to the construction to the parts and precise contours throughout. 
+              Each Custom Shop Reissue is every bit the instrument and statement piece as the priceless vintage examples, providing an ownership experience that is endlessly fun. It features Ultra Light Aging by the skilled artisans of the Murphy Lab. 
+              The Murphy Lab Ultra Light Aged finish treatment, paired with lightly aged hardware, simulates decades of light play wear, giving it the unique character, vibe, and feel of an original example from the Gibson Golden Era.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="Collection3Modal" tabindex="-1" aria-labelledby="Collection3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="Collection3ModallLabel">Collection 3</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="images/3.png" class="img-fluid">
+              This is the collection 3
+              National Style 0 Model Resophonic Guitar (1937), made in Los Angeles, serial # A-5570, nickel plated finish, brass body, poplar neck with ebonized fingerboard, black hard shell case.
+              This guitar is oozing Delta blues mojo! It's reminiscent of the same Style O that Keith Richards used onstage during the Rolling Stones 1969 US Tour. This guitar has some miles, but it has so many more miles to go. It was played and played well. 
+              The heavy playing has left it missing its original pickguard and original fretboard binding. However, it was played smooth to where the missing binding has no "edge" except in areas where your hand will never touch during play. 
+              I barely even noticed the binding was gone until I remember it was standard on Style O Nationals. I have an old vintage National Triolain that is a basketcase, and I use it for parts. 
+              I took 6 frets from the Triolian and replaced the lowest 6 frets on this fretboard because they'd been played hard and needed to be replaced. 
+              If I hadn't told you, you'd never notice, but for the deep fretboard impressions.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+          <!-- Modal -->
+       <div class="modal fade" id="Collection4Modal" tabindex="-1" aria-labelledby="Collection4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Collection 4</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="images/4.png" class="img-fluid">
+              This is the Collection 4
+              Fender Custom Shop (FCS) Limited Edition Terry Kath Telecaster® Masterbuilt by Dennis Galuszka
+              Terry Kath has been praised by fans and guitar greats alike for his brilliance as an absolute guitar powerhouse. Kath, who Jimi Hendrix once cited as his favorite guitarist, fused sophisticated songwriting ability with his soulful vocals to launch Chicago Transit Authority in 1967. 
+              The band shortened its name to Chicago in 1969, achieving worldwide success and 2016 induction into the Rock & Roll Hall of Fame. A consummate innovator, Kath created mind-blowing, never-before-heard guitar tones by experimenting with unorthodox guitar/amp configurations. 
+              His instinctive command of his completely original tone is heard on memorable tracks such as "25 or 6 to 4", "Free Form Guitar", "Introduction" and others.
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+          <!-- Modal -->
+          <div class="modal fade" id="Collection5Modal" tabindex="-1" aria-labelledby="Collection5ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Collection5ModallLabel">Collection 5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/5.png" class="img-fluid">
+                  This is the collection 5
+                  Orianthi is known for working with top musicians, including Carlos Santana, Alice Cooper, Carrie Underwood, and Michael Jackson, and PRS guitars have been in her hands every step of the way. This limited edition is based on the in-demand guitarist's personalized Custom 24 first made as a one-off artist build by the Private Stock team in 2017.
+                  The Private Stock Orianthi Limited Edition keeps many of the specs as the original artist build, including a figured maple top, mahogany back, and a 24-fret, 25" scale length, Pattern Thin mahogany neck with rosewood fretboard.
+                  Like the original, the fretboard is adorned with a custom "Lotus Vine" inlay (similar to PRS's classic "Tree of Life" design) that was inspired by a pen Orianthi sent to the team. The inlay is made from pink mussel and mother of pearl. 
+                  Newly developed to showcase the Private Stock grade figured maple, the Private Stock Orianthi Limited Edition comes in Blooming Lotus Glow, which has a pink center glow that fades outward to a similar purple as the original artist build, which was opaque rather than hand stained.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="Collection6Modal" tabindex="-1" aria-labelledby="Collection6ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Collection6ModallLabel">Collection 6</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/6.png" class="img-fluid">
+                  This is the collection 6
+                  Gibson Custom Shop is the pinnacle of craftsmanship, quality, and sound excellence. Each instrument celebrates Gibson's legacy through accuracy, authenticity and attention to detail.
+                  1960 was the last year for the original Les Paul™ Standard, nearly identical to a 1959 model except for a few specs. Most notably, it features a fast-playing slim neck profile, beloved by the many famous musicians who played '60 Bursts including Eric Clapton, Joe Walsh, and Paul McCartney. 
+                  It also has "reflector" Volume & Tone knobs and wider "double-ring" tuner tips. The Custom Shop 1960 Les Paul Standard Reissue is a clone of the originals from the hide-glue construction to the chemically re-engineered plastic parts. Each one is built with extreme care, reverence and attention to detail by expert Custom Shop craftspeople who are committed to providing an authentic vintage ownership experience. 
+                  It also features Heavy Aging by the skilled artisans of the Murphy Lab. The Murphy Lab Heavy Aged finish treatment, paired with heavily aged hardware, simulates decades of heavy play wear, giving it the unique character, vibe, and feel of an original example from the Gibson Golden Era.
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+         <div class="modal fade" id="Collection7Modal" tabindex="-1" aria-labelledby="Collection7ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Collection 7</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="images/7.png" class="img-fluid">
+              This is the Collection 7
+             With tone as hot as the Sonoran sun and looks as worn-in as an old pair of boots, the allure of the Limited Edition Red Hot Strat will captivate any player, aficionado or collector, and have them begging for a glass of ice water. A two-piece hand-selected ash body with deep contours wears a super heavy relic lacquer finish, creating a one-of-a-kind work of art in each build. A tinted 2A flame maple neck with 2A flame maple fingerboard sports a fat, comfortable 1959 "D" profile, 9.5" fingerboard radius and 21 narrow tall (6105) frets.
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+          <!-- Modal -->
+          <div class="modal fade" id="Collection8Modal" tabindex="-1" aria-labelledby="Collection8ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Collection8ModallLabel">Collection 8</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/8.png" class="img-fluid">
+                  This is the collection 8
+                 The Gibson EDS-1275 Double Neck is an iconic design that has captured the imagination of fans and players for generations.
+
+                 Details
+                 • Finish: Cherry Red
+                 • Body: 1-Piece Solid Mahogany
+                 • Necks: Solid Mahogany
+                 • Neck Profiles: Slim C-Shape
+                 • Nut width: 1.687" / 42.85mm
+                 • Fingerboards: Indian Rosewood
+                 • Scale length: 24.75" / 628.65mm
+                 • Number of frets: 20
+                 • Nuts Corian
+                 • Inlays: Celluloid Split Parallelogram
+                 • Bridge: ABR-1
+                 • Tailpiece: Nickel 6/12 1275
+                 • Knobs: Black Top Hats w/ Silver Inserts
+                 • Tuners: Gibson Deluxe, Double Ring
+                 • Plating: Nickel
+                 • Neck pickup: Custombucker Alnico III (Unpotted)
+                 • Bridge pickup: Custombucker Alnico III (Unpotted)
+                 • Controls: Switchcraft Toggle Switch - EDS-1275
+                 • Case: Gibson 1275
+                 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="Collection9Modal" tabindex="-1" aria-labelledby="Collection9ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Collection9ModallLabel">Collection 9</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/9.png" class="img-fluid">
+                  This is the collection 9
+                  vMetallica fans worldwide are familiar with Kirk Hammett's 1979 Flying V. It was Kirk's first Gibson and established his passion for Gibson guitars. Its purchase was inspired by famous Flying V players Kirk admired and because he was looking for a fuller sound. 
+                  And what a sound! Kirk still plays the original guitar to this day, and used it on all the early Metallica albums, including Kill 'Em All, Ride the Lightning, Master of Puppets, ... And Justice for All, and The Black Album, making it one of the most important heavy metal guitars of all time. 
+                  Only 200 were hand-made by the expert luthiers of the Gibson Custom Shop in Nashville, Tennessee, artfully aged to match the original by the Murphy Lab. The included Certificate of Authenticity photo is signed by Kirk Hammett himself.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                  <li class="page-item"><a class="page-link" href="item1.html">2</a></li>
+                  <li class="page-item"><a class="page-link" href="cart1.html">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Up</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        </div>
+      </body>
+    </html>    
+    
+        <footer>
+          <p>&copy; 2024 Jack Wang - All Rights Reserved</p>
+        </footer>
+    
+        <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
+      

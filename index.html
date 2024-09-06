@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jacksgoods - Main Page</title>
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+      .red-border {
+        border: 4px solid rgb(2, 2, 2);
+      }
+      .col {
+        border: 1px solid blue;
+      }
+      .grey {
+        color: rgba(18, 18, 19, 0.849);
+        text-align: center;
+      }
+      img {
+        width: 100%;
+        display: block;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color:transparent;
+        color: black;
+        margin-top: 25px;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-lg red-border">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Jack'sgoods.com</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Main page</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="item1.html">Item</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="cart1.html">Shopping cart</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Carousel Section -->
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/fender.jpg" class="d-block w-100" alt="Fender Guitar">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Gibson.png" class="d-block w-100" alt="Gibson Guitar">
+          </div>
+          <div class="carousel-item">
+            <img src="images/ltd.png" class="d-block w-100" alt="LTD Guitar">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="grey">Welcome to Jack'sgoods.com</h1>
+          <p class="grey">Your one-stop shop for the finest guitars and accessories.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExample2" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/80.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/30.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sm.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="item1.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="cart1.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+  
+    <footer>
+      <p>&copy; 2024 Jack Wang - All Rights Reserved</p>
+    </footer>
+
+    <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
+  
